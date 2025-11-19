@@ -29,7 +29,7 @@ export default function Index() {
               Более 10 лет опыта в ветеринарии. Каждое животное получает индивидуальный подход и внимательное отношение.
             </p>
             <div className="flex gap-4">
-              <Button size="lg" className="text-lg" asChild>
+              <Button size="lg" className="text-lg bg-gradient-to-r from-primary via-accent to-primary bg-[length:200%_100%] hover:bg-[position:100%_0] transition-all duration-500 shadow-lg hover:shadow-xl" asChild>
                 <a href="#contact">Записаться на приём</a>
               </Button>
               <Button size="lg" variant="outline" className="text-lg" asChild>
